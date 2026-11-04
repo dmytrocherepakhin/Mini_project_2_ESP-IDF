@@ -14,10 +14,6 @@ Parameters:
 
 ```mermaid
 
----
-config:
-  layout: dagre
----
 stateDiagram
   direction TB
   state S2 {
