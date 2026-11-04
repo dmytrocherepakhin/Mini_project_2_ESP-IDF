@@ -1,0 +1,11 @@
+idf_component_register(
+    SRCS
+        "door_controller.cpp"
+        "hazard_controller.cpp"
+        "turn_controller.cpp"
+        "crash_controller.cpp"
+    INCLUDE_DIRS
+        "include"
+    REQUIRES
+        cl
+)

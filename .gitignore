@@ -1,0 +1,91 @@
+
+# ============================================================
+# Embedded: PlatformIO / Arduino / ESP-IDF / STM32
+# C, C++, CMake, VS Code, CLion, KiCad
+# ============================================================
+
+# --- PlatformIO ---
+.pio/
+
+# --- ESP-IDF ---
+build/
+build_*/
+managed_components/
+sdkconfig
+sdkconfig.*
+!sdkconfig.defaults
+!sdkconfig.defaults.*
+!sdkconfig.ci
+
+# Keep dependencies.lock, Kconfig, CMakeLists.txt,
+# idf_component.yml and platformio.ini
+
+# --- CMake / Ninja ---
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+build.ninja
+.ninja_deps
+.ninja_log
+
+# --- STM32CubeIDE / Eclipse ---
+Debug/
+Release/
+.metadata/
+
+# Keep .project, .cproject, .ioc and linker scripts
+# Optional:
+# .settings/
+# *.launch
+
+# --- Compiled firmware ---
+*.o
+*.obj
+*.d
+*.a
+*.elf
+*.axf
+*.bin
+*.hex
+*.srec
+*.uf2
+*.map
+*.lst
+*.su
+*.gcda
+*.gcno
+
+# --- IDE local settings ---
+.vscode/
+.idea/
+.cache/
+CMakeUserPresets.json
+
+# --- Python / testing ---
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# --- KiCad ---
+.history/
+*-backups/
+_autosave-*
+fp-info-cache
+~*.lck
+*.kicad_prl
+
+# --- Temporary / OS files ---
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini

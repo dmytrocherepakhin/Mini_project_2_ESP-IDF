@@ -1,0 +1,11 @@
+idf_component_register(
+    SRCS
+        "gpio_input.cpp"
+        "gpio_output.cpp"
+        "timer.cpp"
+    INCLUDE_DIRS
+        "include"
+    REQUIRES
+        esp_driver_gpio
+        esp_timer
+)
