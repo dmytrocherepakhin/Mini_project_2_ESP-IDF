@@ -7,6 +7,7 @@ idf_component_register(
         "event_dispatcher.cpp"
     INCLUDE_DIRS
         "include"
+    PRIV_INCLUDE_DIRS "../../include"
     REQUIRES
         dl
 )
